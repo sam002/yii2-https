@@ -1,0 +1,34 @@
+{
+  "name": "sam002/yii2-https",
+
+  "type": "yii2-extension",
+
+  "description": "YII2 extension for applications work on HTTPS protocol (certificate management, control  a external content and links)",
+  "keywords": ["yii2", "https", "security", "ssl", "letsencrypt", "certificate", "external links", "external sources"],
+  "license": "LGPL-3.0",
+  "support": {
+    "issues": "https://github.com/sam002/yii2-https/issues",
+    "source": "https://github.com/sam002/yii2-https"
+  },
+  "authors": [
+    {
+      "name": "Semen Dubina",
+      "email": "yii2-https@sam002.net",
+      "homepage": "http://sam002.net/project/yii2-https",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "2.0.*",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "sam002\\https\\": "src"
+    }
+  }
+}
